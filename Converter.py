@@ -10,7 +10,7 @@ class Converter():
     def __init__(self):
         self.dictionary = dict()
         self.dictionaryFilePath = 'Letters.txt'
-        self.curseRegister = False
+        self.curseRegister = True
 
         self.CreateDictionary()
 
